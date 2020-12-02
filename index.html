@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ROCK PAPER SCISSORS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main class="container">
+            <div class="top">
+                <div class="score-logo">
+                    <div class="player-score">
+                        <h2 class="who">PLAYER</h2>
+                        <p class="no player">0</p>
+                    </div>
+                    <div class="logo">
+                        <img src="images/logo-bonus.svg" alt="logo">
+                    </div>
+                    <div class="computer-score">
+                        <h2 class="who">THE HOUSE</h2>
+                        <p class="no computer">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="video">
+                    <div class="title">How the game works</div>
+                    <video class="video-content" controls >
+                        <source src="images/sheldon.mp4" type=video/mp4>
+                            Your browser does not support the video tag.
+                    </video>
+                </div>
+            
+                <div class="submit">
+                    <p class="play">Gotten how to play the game??. Choose an option in the next page</p>
+                    <button class="play-btn">LET'S PLAY &rArr;</button>
+                </div>
+            </div>
+            <div class="match">
+                <div class="player-side">
+                    <div class="player-title">YOU PICKED</div>
+                    <div class="option spock shoot">
+                        <img src="images/icon-spock.svg" alt="rock logo" class="player-hand">
+                    </div>
+                </div>
+                <div class="position">
+                    <h3 class="position-title">YOU LOSE</h3>
+                    <button class="position-btn">Next round</button>
+                </div>
+                <div class="computer-side">
+                    <div class="player-title">THE HOUSE PICKED</div>
+                    <div class="option rock reload">
+                        <img src="images/icon-rock.svg" alt="rock logo" class="computer-hand">
+                    </div>
+                </div>
+            </div>
+            <div class="game-option fade-out" id="game">
+                <div class="bg-pent">
+                    <img src="images/bg-pentagon.svg" alt="">
+                </div>
+                <div class="selection">
+                    <div class="select-top">
+                        <div class="selection-option scissors scissors-p">
+                            <img src="images/icon-scissors.svg" alt="scissors" class="sci">
+                        </div>
+                    </div>
+                    <div class="select-middle">
+                        <div class="selection-option spock spock-p">
+                            <img src="images/icon-spock.svg" alt="spock" class="spo">
+                        </div>
+                        <div class="selection-option paper paper-p">
+                            <img src="images/icon-paper.svg" alt="paper" class="pap">
+                        </div>
+                    </div>
+                    <div class="select-below">
+                        <div class="selection-option lizard lizard-p">
+                            <img src="images/icon-lizard.svg" alt="lizard" >
+                        </div>
+                        <div class="selection-option rock rock-p">
+                            <img src="images/icon-rock.svg" alt="rock" class="roc">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="rule">
+                <a href="#rule">
+                    <button class="rule-btn">RULES</button>
+                </a>
+            </div>
+        </main>
+        <div class="scroll" id="rule">
+            <div class="ruling">
+                <div  >
+                    <h2 class="ruling-title">RULES</h2>
+                    <a href="#game" class="ruling-to">
+                        <img src="images/icon-close.svg" alt="" class="ruling-top">
+                    </a>
+                </div>
+                <div class="rule-title">
+                    <h2>To win a particular round, you must have 10 points before the house.  </h2>
+                </div>
+                <div class="ruling-logo">
+                    <img src="images/image-rules-bonus.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
