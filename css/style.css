@@ -200,7 +200,7 @@ body {
 .game-option {
   position: relative;
   transition: opacity 0.9s ease 0.5s;
-  margin-top: -9rem;
+  margin-top: -8rem;
 }
 .selection {
   position: absolute;
@@ -361,7 +361,8 @@ body {
     width: 15rem;
   }
   .play {
-    font-size: 1.5rem;
+    padding-left: 2rem;
+    font-size: 1.2rem;
   }
   .option,
   .selection-option {
@@ -371,10 +372,13 @@ body {
     padding: 0 0rem;
   }
   .position-title {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
   .position-btn {
     width: 16rem;
+  }
+  .game-option {
+    margin-top: -6rem;
   }
 }
 @media (min-width: 481px) and (max-width: 767.98px) {
@@ -404,6 +408,9 @@ body {
   }
   .position-btn {
     width: 16rem;
+  }
+  .play {
+    padding-left: 1rem;
   }
 }
 @media (min-width: 768px) and (max-width: 1023.98px) {

@@ -125,7 +125,6 @@ const game=()=>{
                 play.classList.add("fade-in")
 
 
-                
 
                 again.addEventListener("click",()=>{
                     match.classList.remove("fade-out");
