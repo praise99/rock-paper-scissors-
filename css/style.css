@@ -246,12 +246,12 @@ body {
   width: 13rem;
   letter-spacing: 1.5px;
   position: absolute;
-  bottom: 2rem;
+  bottom: 3rem;
   right: 4rem;
 }
 .back {
-  bottom: 5rem;
-  right: 4rem;
+  bottom: 3rem;
+  left: 4rem;
 }
 .rule-btn:hover {
   color: hsl(217, 16%, 45%);
