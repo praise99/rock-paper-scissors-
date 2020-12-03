@@ -246,7 +246,11 @@ body {
   width: 13rem;
   letter-spacing: 1.5px;
   position: absolute;
-  bottom: 4rem;
+  bottom: 2rem;
+  right: 4rem;
+}
+.back {
+  bottom: 5rem;
   right: 4rem;
 }
 .rule-btn:hover {

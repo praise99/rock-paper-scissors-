@@ -31,6 +31,16 @@ const game=()=>{
         })
         //computer choice
         const computerOption=["rock", "paper","scissors","spock","lizard"]
+        const introscreen=document.querySelector(".bottom")
+        const back=document.querySelector(".click")
+                back.addEventListener("click",()=>{
+                    console.log("food")
+                    match.classList.add("fade-out");
+                    play.classList.add("fade-out")
+                    introscreen.classList.add("fade-in")
+                })
+                console.log("food2")
+
         options.forEach(option=>{
             option.addEventListener("click",function(){
                 const computerNumber=Math.floor(Math.random()*5);
@@ -124,14 +134,12 @@ const game=()=>{
                 match.classList.add("fade-out");
                 play.classList.add("fade-in")
 
-
-
                 again.addEventListener("click",()=>{
                     match.classList.remove("fade-out");
                 play.classList.remove("fade-in")
 
                 })
-
+                
                 border.style.animation="shake 2s ease"
                 outline.style.animation="shake 2s ease"
 
